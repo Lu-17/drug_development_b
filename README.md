@@ -20,7 +20,7 @@
   
    The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) and performed by downloading the target protein (mutated LRRK2) (PDB ID- 7L13) from the PDB database. There are four (4) mutations on the protein. Mutated form of the protein was downloaded because mutation on this gene (LRRK2) is what triggers pathogenesis of PD. An established standard (Lrrk2-IN--1) which is an inhibitor of the Parkinson's disease kinase LRRK2 was also obtained from PubChem database. Fifteen (15) compounds extracted using hot water from Safflower seed (Yu et al., 2013) were used as test compounds against the target protein. The structure of the compounds was obtained from the PubChem database. The target protein was prepared by removing water molecules, metal ion using the [Biovia Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download).  Docking was done on [PyRx](https://sourceforge.net/projects/pyrx/) while [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download) was used to carry out the visualization study. 
 
-## Workflow
+## Workflow for Multiple Ligand docking
   In this tutorial, we will cover:
   
   1. Download data       
@@ -93,7 +93,7 @@ When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an
 
 Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.  
 
-## Workflow
+## Workflow for Galaxy
 The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
 
 **Fig 6.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
