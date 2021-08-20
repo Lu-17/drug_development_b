@@ -29,8 +29,8 @@
   5. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
  
  ## Download data 
-  **A. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)**
-  **B. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)**
+  **1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)**
+  **2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)**
     
  ### Get the target protein
   1. Go to Protein Data Bank - **PDB**.
