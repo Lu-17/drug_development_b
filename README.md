@@ -92,26 +92,29 @@ When using the 7L13 protein in galaxy, the GROMACS tool gives an error "This job
 Instead the lysozyme protein workflow was regenerated to discribe realistic molecular motion of the system.  
 
 ## Workflow
+The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below.
+
+**Fig 5.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+
 1. Setup (loading data, solvation i.e. addition of water and ions).
 2. Energy minimization of the protein.
 3. Equilibration of the solvent around the protein (with two ensembles, NVT and NPT)
 4. Production simulation.
 
-## setup 
+## Setup 
 In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges). Then, a GRO structure file is created, storing the structure of the protein. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
 
+## Energy minimization
+To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
+## Equilibration
+At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
-## Steps
-The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below.
-
-**Fig 5.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
-
-
-## Results
-Results in the form of .GRO file were visualized using NGL viewer
+## Production simulation
+After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
 
 **Fig 6.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
+
 
 # Video Tutorial for protein-ligand binding studies
 
