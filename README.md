@@ -40,7 +40,10 @@
   
  ### Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds)
   1. Go to PubChem Database.
-  2. Search for "**LRRK2-IN-1**" (PubChem ID: 46843906)
+  2. Search for ["**LRRK2-IN-1**"](https://pubchem.ncbi.nlm.nih.gov/compound/46843906) (PubChem ID: 46843906)
+  3. Search for the Safflower ligands from PubChem:
+     2-Amino-3,4-dimethylbenzoic acid - PubChem ID: 282450
+     Hydroxybenzhydrazide - PubChem ID: 
   
   
  ## Separating protein and unique ligand structures
@@ -52,6 +55,11 @@
   
   
 
+## Video Tutorial for protein-ligand binding studies
+
+[Click over here for part 1](https://drive.google.com/drive/folders/171VjcD1O0qPpaUL9w5POX_nSfSe3Za65?usp=sharing)
+
+[Click over here for part 2](https://drive.google.com/file/d/17IBhekFHaGNz_y503WcuUWwgU02INYs7/view?usp=sharing)
 
 
 
@@ -72,7 +80,7 @@ Rai SN, Singh, P, Varchney R, Chaturvedi VK, Vamanu, E, Singh MP, Singh BK (2021
 
 Salat D, Tolosa E (2013) Levodopa in the treatment of Parkinson’s disease: current status and new developments. J Parkinson’s Dis 3:255-269.
 
-Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2
+Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2 - automatic!
 
 Zhu ZG, Sun MX, Zhang WL, Wang WW, Jin YM, Xie CL (2017b) The efficacy and safety of coenzyme Q10 in Parkinson’s disease: a meta-analysis of randomized controlled trials. Neurol Sci 38:215-224.
 
