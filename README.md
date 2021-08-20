@@ -50,6 +50,7 @@
   
   
  ## Docking
+ ![Fig 3: 3D structure of hit ligand 5280343 at target protein binding site](https://github.com/Lu-17/drug_development_b/blob/main/Results/snapshot%20of%20grid%20showing%20binding%20site%20for%20all.png)
  
  ## Visualization
   
