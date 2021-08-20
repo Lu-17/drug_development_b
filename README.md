@@ -88,7 +88,23 @@ Even though molecular docking gives a comprehensive insight about the non-covale
 
 When using the 7L13 protein in galaxy, the GROMACS tool gives an error "This job was terminated because it used more memory than it was allocated." We believe this is a limitation to using GROMACS from galaxy. 
 
-Instead the lysozyme protein workflow was regenerated to discribe realistic molecular motion of the system as shown in figure (5) and (6).  
+Instead the lysozyme protein workflow was regenerated to discribe realistic molecular motion of the system.  
+
+## Workflow
+1. Setup (loading data, solvation i.e. addition of water and ions).
+2. Energy minimization of the protein.
+3. Equilibration of the solvent around the protein (with two ensembles, NVT and NPT)
+4. Production simulation.
+
+## Steps
+The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below.
+
+**Fig 5.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+
+## Results
+Results in the form of .GRO file were visualized using NGL viewer
+
+**Fig 6.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
 
 # Video Tutorial for protein-ligand binding studies
 
