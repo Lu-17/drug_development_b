@@ -23,15 +23,14 @@
 ## Workflow
   In this tutorial, we will cover:
   
-  1. Download data  
-      1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
-      2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)      
+  1. Download data       
   2. Separating protein and unique ligand structures using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
   4. Docking using [PyRx](https://sourceforge.net/projects/pyrx/)
   5. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
  
  ## Download data 
- Download the dataset as mentioned:
+  1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
+  2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/) 
     
  ### Get the target protein
   1. Go to Protein Data Bank - **PDB**.
