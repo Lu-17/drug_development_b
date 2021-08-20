@@ -65,7 +65,7 @@
 
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
-  **Fig 2.**:2D structure of hit ligand 65064 and target protein complex
+  **Fig 3.**:2D structure of hit ligand 65064 and target protein complex
 
 
 
