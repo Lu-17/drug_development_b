@@ -83,6 +83,7 @@
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
   **Fig 4.** 2D structure of hit ligand 65064 and target protein complex
+  
  ## Using GROMACS for 7L13 protein visualization
 Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
 
@@ -96,10 +97,16 @@ Instead the lysozyme protein workflow was regenerated to discribe realistic mole
 3. Equilibration of the solvent around the protein (with two ensembles, NVT and NPT)
 4. Production simulation.
 
+## setup 
+In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges). Then, a GRO structure file is created, storing the structure of the protein. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
+
+
+
 ## Steps
 The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below.
 
 **Fig 5.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+
 
 ## Results
 Results in the form of .GRO file were visualized using NGL viewer
