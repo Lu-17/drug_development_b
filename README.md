@@ -72,7 +72,7 @@ Rai SN, Singh, P, Varchney R, Chaturvedi VK, Vamanu, E, Singh MP, Singh BK (2021
 
 Salat D, Tolosa E (2013) Levodopa in the treatment of Parkinson’s disease: current status and new developments. J Parkinson’s Dis 3:255-269.
 
-Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2 - automatic!
+Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2
 
 Zhu ZG, Sun MX, Zhang WL, Wang WW, Jin YM, Xie CL (2017b) The efficacy and safety of coenzyme Q10 in Parkinson’s disease: a meta-analysis of randomized controlled trials. Neurol Sci 38:215-224.
 
