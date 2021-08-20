@@ -91,7 +91,7 @@ When using the 7L13 protein in galaxy, the GROMACS tool gives an error message t
 **Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
 
 
-Instead the lysozyme protein workflow was regenerated to discribe realistic molecular motion of the system.  
+Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.  
 
 ## Workflow
 The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
