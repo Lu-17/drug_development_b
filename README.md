@@ -35,7 +35,7 @@
     
  ### Get the target protein
   1. Go to Protein Data Bank - **PDB**.
-  2. Download the .pdb file of ["**7LI3**"](https://www.rcsb.org/structure/7LI3) - Structure of the LRRK2 G2019S mutant  
+  2. Download the PDB file of ["**7LI3**"](https://www.rcsb.org/structure/7LI3) - Structure of the LRRK2 G2019S mutant  
   
   
  ### Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds)
