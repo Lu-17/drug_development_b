@@ -67,10 +67,11 @@
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
   **Fig 4.** 2D structure of hit ligand 65064 and target protein complex
+ ## Using GROMACS for protein visualization
+ Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular is the open-source GROMACS. 
 
 
-
-## Video Tutorial for protein-ligand binding studies
+### Video Tutorial for protein-ligand binding studies
 
 [Click over here for part 1](https://drive.google.com/drive/folders/171VjcD1O0qPpaUL9w5POX_nSfSe3Za65?usp=sharing)
 
