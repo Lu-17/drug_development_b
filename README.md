@@ -87,14 +87,17 @@
  ## Using GROMACS for 7L13 protein visualization
 Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
 
-When using the 7L13 protein in galaxy, the GROMACS tool gives an error message "This job was terminated because it used more memory than it was allocated." (https://usegalaxy.eu/datasets/error) We believe this is a limitation to using GROMACS from galaxy. 
+When using the 7L13 protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. We believe this is a limitation to using GROMACS from galaxy. 
+
+**Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
+
 
 Instead the lysozyme protein workflow was regenerated to discribe realistic molecular motion of the system.  
 
 ## Workflow
 The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
 
-**Fig 5.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+**Fig 6.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
 
 1. Setup (loading data, solvation i.e. addition of water and ions).
 2. Energy minimization of the protein.
@@ -113,7 +116,7 @@ At this point equilibration of the solvent around the solute (i.e. the protein) 
 ## Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
 
-**Fig 6.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
+**Fig 7.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
 
 
 # Video Tutorial for protein-ligand binding studies
