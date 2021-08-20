@@ -11,9 +11,8 @@
   In this tutorial, we will cover:
   
   1. Download data  
-      1.1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
-      2.2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)
-      
+      1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
+      2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)      
   2. Separating protein and unique ligand structures using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
   4. Docking using [PyRx](https://sourceforge.net/projects/pyrx/)
   5. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
@@ -42,18 +41,25 @@
 
 
 ## References <h1>
-*Ablat N, Lv D, Ren R, Xiaokaiti Y, Ma X, Zhao X, Sun Y, Lei H, Xu J, Ma Y, Qi X, Ye M, Xu F, Han H, Pu X. Neuroprotective Effects of a Standardized Flavonoid Extract from Safflower against a Rotenone-Induced Rat Model of Parkinson's Disease. Molecules. 2016 Aug 24;21(9):1107. 
+Ablat N, Lv D, Ren R, Xiaokaiti Y, Ma X, Zhao X, Sun Y, Lei H, Xu J, Ma Y, Qi X, Ye M, Xu F, Han H, Pu X. Neuroprotective Effects of a Standardized Flavonoid Extract from Safflower against a Rotenone-Induced Rat Model of Parkinson's Disease. Molecules. 2016 Aug 24;21(9):1107. 
  
-*Bezard E, Yue Z, Kirik D, Spillantini MG (2013) Animal models of Parkinson’s disease: limits and relevance to neuroprotection studies. Mov Disord 28:61-70.
+Bezard E, Yue Z, Kirik D, Spillantini MG (2013) Animal models of Parkinson’s disease: limits and relevance to neuroprotection studies. Mov Disord 28:61-70.
  
-*Emamzadeh FN, Surguchov A (2018) Parkinson’s disease: biomarkers, treatment, and risk factors. Front Neurosci 12:612.
-*Fields CR, Bengoa-Vergniory N, Wade-Martins R (2019) Targeting alpha-synuclein as a therapy for Parkinson’s disease. Front Mol Neurosci 12:299.
-*Irwin DJ, Lee VM, Trojanowski JQ (2013) Parkinson’s disease dementia: convergence of α-synuclein, tau and amyloid-β pathologies. Nat Rev Neurosci 14:626-636.
-*Myasnikov A, Zhu H, Hixson P, Xie B, Yu K, Pitre A, Peng J, Sun J. (2021). Structural analysis of the full-length human LRRK2. Cell. 24;184(13):3519-3527.e10. doi: 10.1016/j.cell.2021.05.004. Epub 2021 Jun 8. PMID: 34107286.
-*Rai SN, Singh, P, Varchney R, Chaturvedi VK, Vamanu, E, Singh MP, Singh BK (2021). Promising drug targets and associated therapeutic interventions in Parkinson’s disease. Neural Regen Res, 16:1730-9.
-*Salat D, Tolosa E (2013) Levodopa in the treatment of Parkinson’s disease: current status and new developments. J Parkinson’s Dis 3:255-269.
-*Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2 - automatic!
-*Zhu ZG, Sun MX, Zhang WL, Wang WW, Jin YM, Xie CL (2017b) The efficacy and safety of coenzyme Q10 in Parkinson’s disease: a meta-analysis of randomized controlled trials. Neurol Sci 38:215-224.
+Emamzadeh FN, Surguchov A (2018) Parkinson’s disease: biomarkers, treatment, and risk factors. Front Neurosci 12:612.
+
+Fields CR, Bengoa-Vergniory N, Wade-Martins R (2019) Targeting alpha-synuclein as a therapy for Parkinson’s disease. Front Mol Neurosci 12:299.
+
+Irwin DJ, Lee VM, Trojanowski JQ (2013) Parkinson’s disease dementia: convergence of α-synuclein, tau and amyloid-β pathologies. Nat Rev Neurosci 14:626-636.
+
+Myasnikov A, Zhu H, Hixson P, Xie B, Yu K, Pitre A, Peng J, Sun J. (2021). Structural analysis of the full-length human LRRK2. Cell. 24;184(13):3519-3527.e10. doi: 10.1016/j.cell.2021.05.004. Epub 2021 Jun 8. PMID: 34107286.
+
+Rai SN, Singh, P, Varchney R, Chaturvedi VK, Vamanu, E, Singh MP, Singh BK (2021). Promising drug targets and associated therapeutic interventions in Parkinson’s disease. Neural Regen Res, 16:1730-9.
+
+Salat D, Tolosa E (2013) Levodopa in the treatment of Parkinson’s disease: current status and new developments. J Parkinson’s Dis 3:255-269.
+
+Tolosa, E., Vila, M., Klein, C. & Rascol, O. (2020). LRRK2 in Parkinson disease: challenges of clinical trials. Nat Rev Neurol 16, 97–107. https://doi.org/10.1038/s41582-019-0301-2 - automatic!
+
+Zhu ZG, Sun MX, Zhang WL, Wang WW, Jin YM, Xie CL (2017b) The efficacy and safety of coenzyme Q10 in Parkinson’s disease: a meta-analysis of randomized controlled trials. Neurol Sci 38:215-224.
 
 
 
