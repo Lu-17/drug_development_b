@@ -11,8 +11,8 @@
   In this tutorial, we will cover:
   
   1. Download data
-    1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
-    2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)
+      1.1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
+      1.2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)
   2. Separating protein and unique ligand structures using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
   3. Docking using [PyRx](https://sourceforge.net/projects/pyrx/)
   4. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
@@ -42,6 +42,7 @@
 
 ## References <h1>
 Ablat N, Lv D, Ren R, Xiaokaiti Y, Ma X, Zhao X, Sun Y, Lei H, Xu J, Ma Y, Qi X, Ye M, Xu F, Han H, Pu X. Neuroprotective Effects of a Standardized Flavonoid Extract from Safflower against a Rotenone-Induced Rat Model of Parkinson's Disease. Molecules. 2016 Aug 24;21(9):1107. 
+ 
 Bezard E, Yue Z, Kirik D, Spillantini MG (2013) Animal models of Parkinson’s disease: limits and relevance to neuroprotection studies. Mov Disord 28:61-70.
 Emamzadeh FN, Surguchov A (2018) Parkinson’s disease: biomarkers, treatment, and risk factors. Front Neurosci 12:612.
 Fields CR, Bengoa-Vergniory N, Wade-Martins R (2019) Targeting alpha-synuclein as a therapy for Parkinson’s disease. Front Mol Neurosci 12:299.
