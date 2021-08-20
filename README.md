@@ -124,7 +124,7 @@ After the previous steps, results of the MD simulation are now ready in the form
 
 
 ## Summary
-From the docking study, Epigallocatechin gallate (PDB Id- 65064) and Quercetin (PDB Id- 5280343) has the highest binding affinity compared to other compounds and the standard. They both produced nine (9) poses while the standard had one (1) pose. Visualization study showed compound 65064 to have best interaction. unfavorable acceptor-acceptor interaction exist on 5280343 and the standard compound also has unfavorable bump.
+From the docking study using PyRx, Epigallocatechin gallate (PDB Id- 65064) and Quercetin (PDB Id- 5280343) has the highest binding affinity compared to other compounds and the standard. They both produced nine (9) poses while the standard had one (1) pose. Visualization study showed compound 65064 to have best interaction. unfavorable acceptor-acceptor interaction exist on 5280343 and the standard compound also has unfavorable bump. Galaxy was futher used to carry out molecular simulation on the target protein but failed.
 
 
 
