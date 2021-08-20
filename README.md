@@ -56,17 +56,17 @@
   
   ![3](https://user-images.githubusercontent.com/83166836/130233175-9ffec29f-513b-496d-9545-9c52c51e30d8.png)
   
-  **Fig 2.**: 3D structure of hit ligand 5280343 at target protein binding site
+  **Fig 2.** 3D structure of hit ligand 5280343 at target protein binding site
 
  ## Visualization
 
   ![2](https://user-images.githubusercontent.com/83166836/130231438-1cc8c7da-2a6f-4ccd-ad33-71e174aa0234.png)
   
-  **Fig 3.**:3D structure of hit ligand 65064 and target protein complex
+  **Fig 3.** 3D structure of hit ligand 65064 and target protein complex
 
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
-  **Fig 4.**:2D structure of hit ligand 65064 and target protein complex
+  **Fig 4.** 2D structure of hit ligand 65064 and target protein complex
 
 
 
