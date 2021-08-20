@@ -42,10 +42,26 @@
   1. Go to PubChem Database.
   2. Search for ["**LRRK2-IN-1**"](https://pubchem.ncbi.nlm.nih.gov/compound/46843906) (PubChem ID: 46843906)
   3. List of ["**Journal source of Safflower compounds**"](https://pubmed.ncbi.nlm.nih.gov/24288028/)
-  4. Search for the Safflower ligands from PubChem:
-     -2-Amino-3,4-dimethylbenzoic acid - PubChem ID: 282450
-     -Hydroxybenzhydrazide - PubChem ID: 
-  
+  4. Search for the Safflower ligands from PubChem and download the SDF file:
+ 
+ 
+|S.No.        | Name of ligand | PubChem ID | 
+|-------------|-------------|-------------|
+|1.           | 2-Amino-3,4-dimethylbenzoic acid  | [PubChem ID: 282450](https://pubchem.ncbi.nlm.nih.gov/compound/282450)|
+|2.           | 4-Hydroxybenzohydrazide| [PubChem ID: 1742](https://pubchem.ncbi.nlm.nih.gov/compound/1742)|
+|3.           | 4-Hydroxycinnamic acid| [PubChem ID: 637542](https://pubchem.ncbi.nlm.nih.gov/compound/637542)|
+|4.           | Chlorogenic acid| [PubChem ID: 1794427](https://pubchem.ncbi.nlm.nih.gov/compound/1794427)|
+|5.           | Epigallocatechin gallate| [PubChem ID: 65064](https://pubchem.ncbi.nlm.nih.gov/compound/65064)|
+|6.           | Epigallocatechin| [PubChem ID:	72277](https://pubchem.ncbi.nlm.nih.gov/compound/72277)|
+|7.           | Ferulic acid| [PubChem ID: 445858](https://pubchem.ncbi.nlm.nih.gov/compound/445858)|
+|8.           | Gallocatechin| [PubChem ID: 65084](https://pubchem.ncbi.nlm.nih.gov/compound/65084)|
+|9.           | kaempferol| [PubChem ID: 5280863](https://pubchem.ncbi.nlm.nih.gov/compound/5280863)|
+|10.          | Luteolin| [PubChem ID: 5280445](https://pubchem.ncbi.nlm.nih.gov/compound/5280445)|
+|11.          | Naringin| [PubChem ID: 442428](https://pubchem.ncbi.nlm.nih.gov/compound/442428)|
+|12.          | Quercetin dihydrate| [PubChem ID: 5284452](https://pubchem.ncbi.nlm.nih.gov/compound/5284452)|
+|13.          | Rutin hydrate| [PubChem ID: 45479757](https://pubchem.ncbi.nlm.nih.gov/compound/45479757)|
+|14.          | Syringic acid| [PubChem ID: 10742](https://pubchem.ncbi.nlm.nih.gov/compound/10742)|
+|15.          | trans-Chalcone| [PubChem ID: 637760](https://pubchem.ncbi.nlm.nih.gov/compound/637760)|
   
  ## Separating protein and unique ligand structures
   
