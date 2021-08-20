@@ -1,0 +1,8 @@
+receptor = New_Target_LRRKS.pdbqt
+exhaustiveness  = 8
+center_x = 211.8629
+center_y = 215.0395
+center_z = 229.0639
+size_x = 25
+size_y = 25
+size_z = 25
