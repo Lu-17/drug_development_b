@@ -53,7 +53,8 @@
  
  ## Visualization
   
-  
+  ![3D6T- 442428 - docked-2](https://user-images.githubusercontent.com/83166836/130230698-4eab9b4c-16be-4ab5-bf95-1efbda7a4a39.png)
+
 
 ## Video Tutorial for protein-ligand binding studies
 
