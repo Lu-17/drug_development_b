@@ -64,7 +64,7 @@
 |15.          | trans-Chalcone| [PubChem ID: 637760](https://pubchem.ncbi.nlm.nih.gov/compound/637760)|
   
  ## Separating protein and unique ligand structures
-  Here, we simply filter the original PDB twice: once for lines which do not match, which returns a PDB file containing only protein; and once for lines which match, which returns a PDB file containing only the unique ligand.
+  We simply filter the original PDB twice: once for lines which do not match, which returns a PDB file containing only protein; and once for lines which match, which returns a PDB file containing only the unique ligand.
   
  ## Docking
 
