@@ -50,12 +50,13 @@
   
   
  ## Docking
-   ![3D6T- 442428 - docked-2](https://user-images.githubusercontent.com/83166836/130230698-4eab9b4c-16be-4ab5-bf95-1efbda7a4a39.png)
   ![3D6T- 442428 - docked](https://user-images.githubusercontent.com/83166836/130231238-c2a2f372-ec53-49a2-b46b-7417c60bdf56.png)
-![3D6T- 442428 - docked-3](https://user-images.githubusercontent.com/83166836/130231291-a52c5d47-0c73-45b3-843b-bbdf5acbb3d8.png)
- ## Visualization
+  
+  ![3](https://user-images.githubusercontent.com/83166836/130232080-904efbe4-f90c-4957-b65f-38d71962c651.png)
 
-  ![1](https://user-images.githubusercontent.com/83166836/130231203-14b9c5f2-1788-4ee8-ba0c-f87389fcda85.png)
+ ## Visualization
+![4](https://user-images.githubusercontent.com/83166836/130232186-694e7a01-147e-4e26-bc59-dae75946d107.png)
+
 ![2](https://user-images.githubusercontent.com/83166836/130231438-1cc8c7da-2a6f-4ccd-ad33-71e174aa0234.png)
 
 
