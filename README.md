@@ -62,11 +62,11 @@
 
   ![2](https://user-images.githubusercontent.com/83166836/130231438-1cc8c7da-2a6f-4ccd-ad33-71e174aa0234.png)
   
-  3D structure of hit ligand 65064 and target protein complex
+  **Fig 3.**:3D structure of hit ligand 65064 and target protein complex
 
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
-  **Fig 3.**:2D structure of hit ligand 65064 and target protein complex
+  **Fig 4.**:2D structure of hit ligand 65064 and target protein complex
 
 
 
@@ -79,6 +79,7 @@
 
 
 ## References <h1>
+ 
 Ablat N, Lv D, Ren R, Xiaokaiti Y, Ma X, Zhao X, Sun Y, Lei H, Xu J, Ma Y, Qi X, Ye M, Xu F, Han H, Pu X. Neuroprotective Effects of a Standardized Flavonoid Extract from Safflower against a Rotenone-Induced Rat Model of Parkinson's Disease. Molecules. 2016 Aug 24;21(9):1107. 
  
 Bezard E, Yue Z, Kirik D, Spillantini MG (2013) Animal models of Parkinson’s disease: limits and relevance to neuroprotection studies. Mov Disord 28:61-70.
