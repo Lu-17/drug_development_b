@@ -93,7 +93,7 @@
 
 
 
-## References <h1>
+## References
  
 Ablat N, Lv D, Ren R, Xiaokaiti Y, Ma X, Zhao X, Sun Y, Lei H, Xu J, Ma Y, Qi X, Ye M, Xu F, Han H, Pu X. Neuroprotective Effects of a Standardized Flavonoid Extract from Safflower against a Rotenone-Induced Rat Model of Parkinson's Disease. Molecules. 2016 Aug 24;21(9):1107. 
  
