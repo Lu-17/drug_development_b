@@ -31,10 +31,11 @@
   5. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
  
  ## Download data 
+ Download the dataset as mentioned:
     
  ### Get the target protein
-  
-  
+  1. Go to Protein Data Bank - PDB.
+  2. Download the .pdb file of "7LI3" - Structure of the LRRK2 G2019S mutant  
   
   
  ### Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds)
