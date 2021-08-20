@@ -7,6 +7,7 @@
   
   
 ![Fig 1. 3D structure of Target protein (mutant LRRK2) ](https://github.com/Lu-17/drug_development_b/blob/main/Results/3D%20structure%20of%20target%20protein%20(mutant%20LRRK2).png)
+**Fig 1.** 3D structure of Target protein (mutant LRRK2)
   
   To date, only symptomatic therapies with the minimum satisfactory effects are known against PD, and no treatment has been known to decelerate the disease progression (Rai et al., 2021). There is a need to develop an effective, efficient, and etiological treatment to fulfill the medical requirement of persons with Parkinson's disease. The lack of resources, including appropriate model animals, well-known biomarkers, and limitations in clinical trial design restricts the complete understanding of PD pathogenesis, which obstructs the development of its potential neuroprotective therapies (Bezard et al., 2013).
   
