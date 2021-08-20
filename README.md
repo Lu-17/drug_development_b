@@ -41,7 +41,7 @@
  ### Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds)
   1. Go to PubChem Database.
   2. Search for ["**LRRK2-IN-1**"](https://pubchem.ncbi.nlm.nih.gov/compound/46843906) (PubChem ID: 46843906)
-  3. List of [** Journal source of Safflower compounds**](https://pubmed.ncbi.nlm.nih.gov/24288028/)
+  3. List of ["**Journal source of Safflower compounds**"](https://pubmed.ncbi.nlm.nih.gov/24288028/)
   4. Search for the Safflower ligands from PubChem:
      -2-Amino-3,4-dimethylbenzoic acid - PubChem ID: 282450
      -Hydroxybenzhydrazide - PubChem ID: 
