@@ -7,7 +7,7 @@
 ## Introduction
  
  
-  This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow is as shown below.
+  This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow as shown below.
   
   ## Workflow for Multiple Ligand docking
   In this tutorial, we will cover:
@@ -103,13 +103,20 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 4. Production simulation.
 
 ## Setup 
-In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges). Then, a GRO structure file is created, storing the structure of the protein. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
+1-In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges).
+2-a GRO structure file is created, storing the structure of the protein. 
+3-a ‘position restraint file’ is created which will define the unit cell where the simulation will take place.
+4-protein solvation is executed to add water molecules and ions to the simulation box.
 
 ## Energy minimization
-To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
+1-To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
 ## Equilibration
-At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
+1-At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.
+2-This is performed in two stages: 
+    a-equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature
+    b-followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature. 
+3-Additionally, use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
 ## Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
