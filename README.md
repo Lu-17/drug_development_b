@@ -30,7 +30,7 @@
   1. Go to PubChem Database.
   2. Search for ["**LRRK2-IN-1**"](https://pubchem.ncbi.nlm.nih.gov/compound/46843906) (PubChem ID: 46843906)
   3. List of ["**Journal source of Safflower compounds**"](https://pubmed.ncbi.nlm.nih.gov/24288028/)
-  4. Search for the Safflower ligands from PubChem and download the SDF file:
+  4. Search for the Safflower ligands from PubChem and download the SDF file.
   
  ### 🧬Separating protein and unique ligand structures
   1. Simply filter the original PDB twice: once for lines which do not match, which returns a PDB file 
