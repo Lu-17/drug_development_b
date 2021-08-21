@@ -112,11 +112,11 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 1-To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
 ## Equilibration
-1-At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.
-2-This is performed in two stages: 
-    a-equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature
-    b-followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature. 
-3-Additionally, use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
+1-At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.\n
+2-This is performed in two stages: \n
+    \ta-equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature\n
+    \tb-followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature.\n
+3-Additionally, use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.\n
 
 ## Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
