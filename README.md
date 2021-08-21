@@ -83,19 +83,13 @@
   
   
  ## Using Galaxy for protein MD simulations
-  Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
-
-When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. We believe this is a limitation to using GROMACS from galaxy. 
-
-**Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
-
-
-Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.  
-
+  Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion.
+  
 ## Workflow for Galaxy
-The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
-
-**Fig 6.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+1. The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. 
+2. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
+  
+  
 
 1. Setup (loading data, solvation i.e. addition of water and ions).
 2. Energy minimization of the protein.
@@ -103,23 +97,16 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 4. Production simulation.
 
 ## Setup 
-1. In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges).
-2. a GRO structure file is created, storing the structure of the protein. 
-3. a ‘position restraint file’ is created which will define the unit cell where the simulation will take place.
-4. protein solvation is executed to add water molecules and ions to the simulation box.
+In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges). Then, a GRO structure file is created, storing the structure of the protein. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
 
 ## Energy minimization
-1. To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
+To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
 ## Equilibration
-1. At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.
-2. This is performed in two stages: 
-     1. equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature, 
-     2. NPT ensemble maintains constant number of particles, pressure and temperature. 
-4. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
+At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
 ## Production simulation
-1. After the previous steps, results of the MD simulation are now ready in the form of (GRO file which are visualized using NGL viewer).
+After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
 
 **Fig 7.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
 
@@ -129,8 +116,19 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 [Click over here for part 1 and 2](https://drive.google.com/drive/folders/171VjcD1O0qPpaUL9w5POX_nSfSe3Za65?usp=sharing)
 
 
+
+**Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
+
+
+Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.  
+
+
+
+**Fig 6.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
 ## Summary
 This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect. The use of in silico technique is faster and reduces laboratory costs. The plant of interest is "Safflower". Safflower (*Carthamus tinctorius* L.) has long been used to treat cerebrovascular diseases in China. This plant contains flavonoids, which are effective in models of neurodegenerative disease (Ablat et al., 2016). 
+
+When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. We believe this is a limitation to using GROMACS from galaxy. 
 
 From the docking study using PyRx, Epigallocatechin gallate (PDB ID- 65064) and Quercetin (PDB ID- 5280343) has the highest binding affinity compared to other compounds and the standard. They both produced nine (9) poses while the standard had one (1) pose. Visualization study showed compound 65064 to have best interaction. Unfavorable acceptor-acceptor interaction exist on 5280343 and the standard compound also has unfavorable bump. Galaxy was futher used to carry out molecular simulation on the target protein but failed.
 
