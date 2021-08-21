@@ -17,7 +17,7 @@
   4. Docking using [PyRx](https://sourceforge.net/projects/pyrx/)
   5. Visualization using [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
  
- ## Download data 
+ ### Download data 
   1. Get the target protein (mutated LRRK2) from the [PDB Protein data bank](https://www.rcsb.org/)
   2. Get the standard (Lrrk2-IN--1) and Ligands (15 Safflower compounds) from the [PubChem database](https://pubchem.ncbi.nlm.nih.gov/)
     
@@ -32,7 +32,7 @@
   3. List of ["**Journal source of Safflower compounds**"](https://pubmed.ncbi.nlm.nih.gov/24288028/)
   4. Search for the Safflower ligands from PubChem and download the SDF file:
   
- ### ## Separating protein and unique ligand structures
+ ### Separating protein and unique ligand structures
   Simply filter the original PDB twice: once for lines which do not match, which returns a PDB file 
   containing only protein; and once for lines which match, which returns a PDB  file containing only the unique ligand.
 
