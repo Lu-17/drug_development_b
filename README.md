@@ -107,17 +107,18 @@ Even though molecular docking gives a comprehensive insight about the non-covale
 ### Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer. Below is an example of what is displayed on galaxy.
 
-**Fig 7.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
+**Fig 4.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
 
 
-**Fig 6.** workflow ![worflow](https://user-images.githubusercontent.com/88459663/130258174-60e498fd-4677-497c-9b53-40d06d319110.PNG)
+**Fig 5.** MD simulation for the protein ![Capture](https://user-images.githubusercontent.com/88459663/130258966-14c10463-593f-44f2-955d-b8545c9c4f86.PNG)
+
 
 ## Summary
 -This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect.
 -When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.
 -We believe this is a limitation to using GROMACS from galaxy. 
 
-**Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
+**Fig 6.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
 
 
 ## Video Tutorial for protein-ligand binding studies
