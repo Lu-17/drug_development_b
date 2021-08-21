@@ -86,7 +86,7 @@
 Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion.
   
 ## Workflow for Galaxy
-1. The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using PDB: 1AKI as shown in the figure below. 
+1. The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using LRRK2 (PDB: 7LI3) and PDB: 1AKI. 
 2. This workflow was extracted from the following Galaxy tutorial: https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html#process 
   
   
