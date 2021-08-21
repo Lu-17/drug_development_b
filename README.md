@@ -50,7 +50,7 @@
   3. Right click on the name of the protein, click on autodock and make macromolecule. It converts from PDB to PDBQT format
   4. Use Open babel in PyRx to import the ligands one after the other
   5. Minimize the energy for all the ligand
-  6. Convert the ligands to PDBQT format
+  6. Convert the ligands to PDBQT format by rigt clicking on the ligand and select convert.
   7. Click on Vina wizard, select the protein and ligand
   8. Click on forward and the docking starts
   9. Save docking result in Excel
