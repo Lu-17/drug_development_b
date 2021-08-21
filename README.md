@@ -123,13 +123,31 @@ After the previous steps, results of the MD simulation are now ready in the form
 
 
 ## List of contributors 
-1. Data Collection: @Pharmahy071, @Halton, @Nour, @OnlyOneDamola, @Aderinsola, @Malak
+1. Data Collection: 
+    1. @Pharmahy071 
+    2. @Halton 
+    3. @Nour
+    4. @OnlyOneDamola 
+    5. @Aderinsola
+    6. @Malak
 
-2. PyRx: @Sefunmi-Peace, @Modinat, @Pravithaks, @kawthar
+2. PyRx:
+    1.  @Sefunmi-Peace 
+    2.  @Modinat
+    3.  @Pravithaks 
+    4.  @kawthar
 
-3. Github repo: @LuisaC, @Marwank, @Bukola888, @AnusuiyaBora_08
+3. Github repo: 
+    1. @LuisaC 
+    2. @Marwank 
+    3. @Bukola888 
+    4. @AnusuiyaBora_08
 
-4. Galaxy workflow: @Tafa, @Noha, @Shadwa, @Zahraa
+4. Galaxy workflow:
+    1.  @Tafa 
+    2.  @Noha 
+    3.  @Shadwa 
+    4.  @Zahraa
 
 
 
