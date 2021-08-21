@@ -9,7 +9,7 @@
  
   This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow is as shown below.
   
- 🧬 ## Workflow for Multiple Ligand docking
+  ## 🧬Workflow for Multiple Ligand docking
   In this tutorial, we will cover:
   
   1. Download data       
