@@ -96,13 +96,13 @@ Even though molecular docking gives a comprehensive insight about the non-covale
 3. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
 
 ### Energy minimization
--To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
+1. To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
 ### Equilibration
--At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. 
--This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. 
--NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. 
--Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
+1. At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. 
+2. This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. 
+3. NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. 
+4. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
 ### Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer. Below is an example of what is displayed on galaxy.
