@@ -70,7 +70,7 @@
   
   ![3](https://user-images.githubusercontent.com/83166836/130233175-9ffec29f-513b-496d-9545-9c52c51e30d8.png)
   
-  **Fig 1.** 3D structure of ligand at target protein binding site
+  **Fig 1.** 3D structure of ligand at target protein binding site showing the gridbox
 
  ## 🧬Example of visualization in Discovery studio
 
