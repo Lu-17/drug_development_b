@@ -111,15 +111,19 @@ After the previous steps, results of the MD simulation are now ready in the form
 
 
 ## Summary
--This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect.
--When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.
--We believe this is a limitation to using GROMACS from galaxy. 
+1. This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect.
+2. When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. Instead the lysozyme protein workflow was regenerated to describe realistic molecular motion of the system.
+3. We believe this is a limitation to using GROMACS from galaxy. 
 
 **Fig 5.** ![image](https://user-images.githubusercontent.com/88295292/130263657-7d87f51a-4c68-432d-936e-3b1ddef87710.png)
 
 
 ## Video Tutorial for protein-ligand binding studies
 [Click over here for part 1 and 2](https://drive.google.com/drive/folders/171VjcD1O0qPpaUL9w5POX_nSfSe3Za65?usp=sharing)
+
+
+## List of contributors 
+
 
 
 ## References
