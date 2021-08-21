@@ -114,8 +114,8 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 ## Equilibration
 1. At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.
 2. This is performed in two stages: 
-    a. equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature
-    b. followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature.
+    1. equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature
+    2. followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature.
 3. Additionally, use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
 ## Production simulation
