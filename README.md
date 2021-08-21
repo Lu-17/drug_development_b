@@ -33,8 +33,9 @@
   4. Search for the Safflower ligands from PubChem and download the SDF file:
   
  ### 🧬Separating protein and unique ligand structures
-  Simply filter the original PDB twice: once for lines which do not match, which returns a PDB file 
-  containing only protein; and once for lines which match, which returns a PDB  file containing only the unique ligand.
+  1. Simply filter the original PDB twice: once for lines which do not match, which returns a PDB file 
+  containing only protein.
+  2. And once for lines which match, which returns a PDB  file containing only the unique ligand.
 
  ### 🧬Preparing the target protein
   1. open the protein in [Biovia Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
