@@ -6,21 +6,10 @@
 
 ## Introduction
  
-  One of the most debilitating diseases of the brain is Parkinson's disease (PD), despite the availability of symptomatic treatments. The biochemical, pathological, and genetic studies have identified 18 types of PD caused by various genes such as α-Syn, LRRK2, parkin, and tau. These genes are involved in the pathogenesis of PD and can promote cognitive impairment in PD patients (Irwin et al., 2013). Leucine Rich Repeat Kinase 2 also called LRRK2 (Fig. 1) is a protein coding gene known to cause Parkinson Disease 8, Autosomal Dominant, and Hereditary Late-Onset Parkinson Disease (Tolosa et al., 2020). Mutations in leucine-rich repeat kinase 2 (LRRK2) are commonly implicated in the pathogenesis of both familial and sporadic Parkinson's disease (PD) (Myasnikov et al., 2021). 
+ 
+  This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow as shown below.
   
-  
-  
-![Fig 1. 3D structure of Target protein (mutant LRRK2) ](https://github.com/Lu-17/drug_development_b/blob/main/Results/3D%20structure%20of%20target%20protein%20(mutant%20LRRK2).png)
-
-**Fig 1.** 3D structure of Target protein (mutant LRRK2)
-  
-  To date, only symptomatic therapies with the minimum satisfactory effects are known against PD, and no treatment has been known to decelerate the disease progression (Rai et al., 2021). There is a need to develop an effective, efficient, and etiological treatment to fulfill the medical requirement of persons with Parkinson's disease. The lack of resources, including appropriate model animals, well-known biomarkers, and limitations in clinical trial design restricts the complete understanding of PD pathogenesis, which obstructs the development of its potential neuroprotective therapies (Bezard et al., 2013).
-  
-  This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect. The use of in silico technique is faster and reduces laboratory costs. The plant of interest is "Safflower". Safflower (*Carthamus tinctorius* L.) has long been used to treat cerebrovascular diseases in China. This plant contains flavonoids, which are effective in models of neurodegenerative disease (Ablat et al., 2016). 
-  
-   The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) and performed by downloading the target protein (mutated LRRK2) (PDB ID- 7L13) from the PDB database. There are four (4) mutations on the protein. Mutated form of the protein was downloaded because mutation on this gene (LRRK2) is what triggers pathogenesis of PD. An established standard (Lrrk2-IN--1) which is an inhibitor of the Parkinson's disease kinase LRRK2 was also obtained from PubChem database. Fifteen (15) compounds extracted using hot water from Safflower seed (Yu et al., 2013) were used as test compounds against the target protein. The structure of the compounds was obtained from the PubChem database. The target protein was prepared by removing water molecules, metal ion using the [Biovia Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download).  Docking was done on [PyRx](https://sourceforge.net/projects/pyrx/) while [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download) was used to carry out the visualization study. 
-
-## Workflow for Multiple Ligand docking
+  ## Workflow for Multiple Ligand docking
   In this tutorial, we will cover:
   
   1. Download data       
@@ -42,31 +31,40 @@
   2. Search for ["**LRRK2-IN-1**"](https://pubchem.ncbi.nlm.nih.gov/compound/46843906) (PubChem ID: 46843906)
   3. List of ["**Journal source of Safflower compounds**"](https://pubmed.ncbi.nlm.nih.gov/24288028/)
   4. Search for the Safflower ligands from PubChem and download the SDF file:
- 
- 
-|S.No.        | Name of ligand | PubChem ID | 
-|-------------|-------------|-------------|
-|1.           | 2-Amino-3,4-dimethylbenzoic acid  | [PubChem ID: 282450](https://pubchem.ncbi.nlm.nih.gov/compound/282450)|
-|2.           | 4-Hydroxybenzohydrazide| [PubChem ID: 1742](https://pubchem.ncbi.nlm.nih.gov/compound/1742)|
-|3.           | 4-Hydroxycinnamic acid| [PubChem ID: 637542](https://pubchem.ncbi.nlm.nih.gov/compound/637542)|
-|4.           | Chlorogenic acid| [PubChem ID: 1794427](https://pubchem.ncbi.nlm.nih.gov/compound/1794427)|
-|5.           | Epigallocatechin gallate| [PubChem ID: 65064](https://pubchem.ncbi.nlm.nih.gov/compound/65064)|
-|6.           | Epigallocatechin| [PubChem ID:	72277](https://pubchem.ncbi.nlm.nih.gov/compound/72277)|
-|7.           | Ferulic acid| [PubChem ID: 445858](https://pubchem.ncbi.nlm.nih.gov/compound/445858)|
-|8.           | Gallocatechin| [PubChem ID: 65084](https://pubchem.ncbi.nlm.nih.gov/compound/65084)|
-|9.           | kaempferol| [PubChem ID: 5280863](https://pubchem.ncbi.nlm.nih.gov/compound/5280863)|
-|10.          | Luteolin| [PubChem ID: 5280445](https://pubchem.ncbi.nlm.nih.gov/compound/5280445)|
-|11.          | Naringin| [PubChem ID: 442428](https://pubchem.ncbi.nlm.nih.gov/compound/442428)|
-|12.          | Quercetin dihydrate| [PubChem ID: 5284452](https://pubchem.ncbi.nlm.nih.gov/compound/5284452)|
-|13.          | Rutin hydrate| [PubChem ID: 45479757](https://pubchem.ncbi.nlm.nih.gov/compound/45479757)|
-|14.          | Syringic acid| [PubChem ID: 10742](https://pubchem.ncbi.nlm.nih.gov/compound/10742)|
-|15.          | trans-Chalcone| [PubChem ID: 637760](https://pubchem.ncbi.nlm.nih.gov/compound/637760)|
   
- ## Separating protein and unique ligand structures
-  We simply filter the original PDB twice: once for lines which do not match, which returns a PDB file containing only protein; and once for lines which match, which returns a PDB file containing only the unique ligand.
-  
- ## Docking
+ ### ## Separating protein and unique ligand structures
+  Simply filter the original PDB twice: once for lines which do not match, which returns a PDB file 
+  containing only protein; and once for lines which match, which returns a PDB  file containing only the unique ligand.
 
+### Preparing the target protein
+  1. open the protein in [Biovia Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download)
+  2. click on view and hirarchy for better analyzation
+  3. remove water and HETATM molecules by clicking on edit and delete one after the other
+  4. Add hydrogen atom "click on chemistry, hydrogen, add".
+  5. Save the file in PDB format. 
+ 
+ ### Docking on PyRx
+  1. Docking was done on [PyRx](https://sourceforge.net/projects/pyrx/)
+  2. Load the prepared protein
+  3. Right click on the name of the protein, click on autodock and make macromolecule. It converts from PDB to PDBQT format
+  4. Use Open babel in PyRx to import the ligands one after the other
+  5. Minimize the energy for all the ligand
+  6. Convert the ligands to PDBQT format
+  7. Click on Vina wizard, select the protein and ligand
+  8. Click on forward and the docking starts
+  9. Save docking result in Excel
+
+ ### Analysis of docking result using discovery studio
+  1. open the docked protein
+  2. click on ligand interactions on the left side of the panel
+  3. study the 2D and 3D diagram generated 
+  4. On the leftside panel to view all types of interactions occuring between the protein and the ligand.
+  5. Repoart the findings.
+  
+  
+
+ ## Example of docking in PyRx
+  
   ![3D6T- 442428 - docked](https://user-images.githubusercontent.com/83166836/130231238-c2a2f372-ec53-49a2-b46b-7417c60bdf56.png)
   
   ![3](https://user-images.githubusercontent.com/83166836/130233175-9ffec29f-513b-496d-9545-9c52c51e30d8.png)
@@ -83,7 +81,8 @@
   
   **Fig 4.** 2D structure of hit ligand 65064 and target protein complex
   
- ## Using GALAXY for LRRK2 MD simulations
+  
+ ## Using Galaxy for protein (LRRK2) MD simulations
 Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
 
 When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. We believe this is a limitation to using GROMACS from galaxy. 
@@ -124,6 +123,8 @@ After the previous steps, results of the MD simulation are now ready in the form
 
 
 ## Summary
+This tutorial aimed to conduct an in silico study , which involves using computer software to analyze biological data in vitro by mimicking what happens in vivo and using the plant as an alternative therapy, with a reduced side effect. The use of in silico technique is faster and reduces laboratory costs. The plant of interest is "Safflower". Safflower (*Carthamus tinctorius* L.) has long been used to treat cerebrovascular diseases in China. This plant contains flavonoids, which are effective in models of neurodegenerative disease (Ablat et al., 2016). 
+
 From the docking study using PyRx, Epigallocatechin gallate (PDB ID- 65064) and Quercetin (PDB ID- 5280343) has the highest binding affinity compared to other compounds and the standard. They both produced nine (9) poses while the standard had one (1) pose. Visualization study showed compound 65064 to have best interaction. Unfavorable acceptor-acceptor interaction exist on 5280343 and the standard compound also has unfavorable bump. Galaxy was futher used to carry out molecular simulation on the target protein but failed.
 
 
