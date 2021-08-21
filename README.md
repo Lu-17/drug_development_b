@@ -7,7 +7,7 @@
 ## Introduction
  
  
-  This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow as shown below.
+  This tutorial is on the use of PyRx to conduct multiple ligand docking and also the use of Galaxy to run Moleular Dynamics (MD) simulation. The study was carried out taking as reference this [Youtube Tutorial](https://www.youtube.com/watch?v=UIk6ISuS5Lk) for the PyRx tutorial. The work flow is as shown below.
   
   ## Workflow for Multiple Ligand docking
   In this tutorial, we will cover:
@@ -69,21 +69,21 @@
   
   ![3](https://user-images.githubusercontent.com/83166836/130233175-9ffec29f-513b-496d-9545-9c52c51e30d8.png)
   
-  **Fig 2.** 3D structure of hit ligand 5280343 at target protein binding site
+  **Fig 1.** 3D structure of ligand at target protein binding site
 
- ## Visualization
+ ## Example of visualization in Discovery studio
 
   ![2](https://user-images.githubusercontent.com/83166836/130231438-1cc8c7da-2a6f-4ccd-ad33-71e174aa0234.png)
   
-  **Fig 3.** 3D structure of hit ligand 65064 and target protein complex
+  **Fig 2.** 3D structure ligand and target protein 
 
   ![4](https://user-images.githubusercontent.com/83166836/130233210-3ab1f93b-98c4-4c4a-b699-ab3aba54f8ee.png)
   
-  **Fig 4.** 2D structure of hit ligand 65064 and target protein complex
+  **Fig 3.** 2D structure ligand and target protein
   
   
- ## Using Galaxy for protein (LRRK2) MD simulations
-Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
+ ## Using Galaxy for protein MD simulations
+  Even though molecular docking gives a comprehensive insight about the non-covalent interactions between a small molecule ligand and the target receptor; it is still not enough to accurately validate the nature of binding between them. As it doesn't consider the cell's environment with the water molecules it includes in the cytosol and how it affects the local minimum binding free energy. For this reason molecular dynamics simulations are needed to accurately calculate the binding energies in the cellular environment using simplified molecular mechanics calculations by iterative application of Newton’s laws of motion. Multiple packages exist for performing MD simulations. One of the most popular visualization tools is the open-source GROMACS.
 
 When using the LRRK2 (PDB ID: 7LI3) protein in galaxy, the GROMACS tool gives an error message that details to: "This job was terminated because it used more memory than it was allocated." as shown in figure 5. We believe this is a limitation to using GROMACS from galaxy. 
 
@@ -103,20 +103,13 @@ The following workflow (https://usegalaxy.eu/u/shadwa_7/h/md) was executed using
 4. Production simulation.
 
 ## Setup 
-1. In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges).
-2. a GRO structure file is created, storing the structure of the protein. 
-3. a ‘position restraint file’ is created which will define the unit cell where the simulation will take place.
-4. protein solvation is executed to add water molecules and ions to the simulation box.
+In the setup step, a topology for the protein structure is prepared which contains all the information required to describe the molecule for the purposes of simulation (atom masses, bond lengths and angles, charges). Then, a GRO structure file is created, storing the structure of the protein. Finally, a ‘position restraint file’ is created which will define the unit cell where the simulation will take place. After that, protein solvation is executed to add water molecules and ions to the simulation box.
 
 ## Energy minimization
-1. To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
+To remove any steric clashes or unusual geometry which would artificially raise the energy of the system, we must relax the structure by running an energy minimization (EM) algorithm.
 
 ## Equilibration
-1. At this point equilibration of the solvent around the solute (i.e. the protein) is necessary.
-2. This is performed in two stages: 
-    1. equilibration under an NVT ensemble, NVT ensemble maintains constant number of particles, volume and temperature
-    2. followed by an NPT ensemble, while NPT ensemble maintains constant number of particles, pressure and temperature.
-3. Additionally, use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
+At this point equilibration of the solvent around the solute (i.e. the protein) is necessary. This is performed in two stages: equilibration under an NVT ensemble, followed by an NPT ensemble. NVT ensemble maintains constant number of particles, volume and temperature, while NPT ensemble maintains constant number of particles, pressure and temperature. Additionally, we use the position restraint file again to hold the protein in place while the solvent is allowed to move freely around it.
 
 ## Production simulation
 After the previous steps, results of the MD simulation are now ready in the form of .GRO file which are visualized using NGL viewer.
